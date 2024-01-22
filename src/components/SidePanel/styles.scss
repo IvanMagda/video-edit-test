@@ -1,0 +1,9 @@
+@import "../../global/constants";
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $grey;
+  background: $white;
+  border-radius: 10px;
+}

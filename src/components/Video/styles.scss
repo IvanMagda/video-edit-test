@@ -1,0 +1,11 @@
+@import "../../global/constants";
+
+.video-container {
+  width: 900px;
+  background: $black;
+
+  .video-preview {
+    display: flex;
+    margin: auto;
+  }
+}

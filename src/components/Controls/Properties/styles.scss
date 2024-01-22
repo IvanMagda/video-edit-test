@@ -1,0 +1,19 @@
+@import "../../../global/constants";
+
+.properties {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 45px;
+  background-color: $grey-light;
+  padding: 0 15px;
+
+  .text {
+    opacity: 0.5;
+    padding-bottom: 3px;
+  }
+
+  .logo-select {
+    width: 100px;
+  }
+}

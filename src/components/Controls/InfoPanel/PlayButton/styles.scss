@@ -1,0 +1,20 @@
+@import "../../../../global/constants";
+
+.play-button {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: unset;
+  background-color: $purple;
+  font-size: small;
+  margin-left: 15px;
+
+  .icon {
+    width: 14px;
+    height: 18px;
+    margin-right: 10px;
+    filter: invert(100%);
+  }
+}

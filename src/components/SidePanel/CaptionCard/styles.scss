@@ -1,0 +1,38 @@
+.caption-card {
+  display: flex;
+  padding: 10px;
+
+  .avatar {
+    margin-right: 5px;
+  }
+
+  .title {
+    font-size: small;
+
+    .name {
+      font-weight: bold;
+      padding-right: 5px;
+    }
+
+    .time {
+      opacity: 0.75;
+    }
+  }
+
+  &.fadeOut {
+    opacity: 0;
+    max-height: 0;
+    transition:
+      max-height 0.25s,
+      opacity 0.25s;
+    padding: 0;
+  }
+
+  &.fadeIn {
+    opacity: 1;
+    max-height: 500px;
+    transition:
+      max-height 0.25s,
+      opacity 0.25s;
+  }
+}

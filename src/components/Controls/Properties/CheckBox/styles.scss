@@ -1,0 +1,16 @@
+@import "../../../../global/constants";
+
+.checkbox-labeled {
+  margin-right: 25px;
+
+  &:last-of-type{
+    margin-right: 0;
+  }
+
+  .checkbox {
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.1em;
+    accent-color: $purple;
+  }
+}

@@ -1,0 +1,14 @@
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin: unset;
+  height: 750px;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

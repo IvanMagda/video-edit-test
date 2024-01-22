@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 15px auto;
+  width: 1300px;
+}
+
+.left-column {
+  margin-right: 25px;
+}
+
+.right-column {
+  max-width: 400px;
+}

@@ -1,0 +1,19 @@
+@import "../../../../global/constants";
+
+.download-button {
+  color: $purple;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 2px solid $purple;
+  background-color: $white;
+  font-size: small;
+  margin-left: 15px;
+
+  .icon {
+    height: 14px;
+    margin-right: 10px;
+    filter: invert(28%) sepia(62%) saturate(5756%) hue-rotate(261deg) brightness(72%) contrast(122%);
+  }
+}

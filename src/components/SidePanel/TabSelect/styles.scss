@@ -1,0 +1,18 @@
+@import "../../../global/constants";
+
+.tab-group {
+  border-bottom: 2px solid $grey;
+  padding: 15px 5px 5px 5px;
+  margin-bottom: 10px;
+
+  .tab-category {
+    font-weight: bold;
+    padding: 15px 15px 4px 10px;
+    cursor: pointer;
+
+    &.selected {
+      color: $purple;
+      border-bottom: 3px solid $purple;
+    }
+  }
+}
