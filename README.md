@@ -10,6 +10,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # Description
 
+Live demo available at [colossal-boot.surge.sh](https://colossal-boot.surge.sh/)
+
 ## Sound Control Slider
 
 Changes made for this slider displays transcript for selected range
